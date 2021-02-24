@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 900px;
+    margin: 0 auto;
+}
+
+#banner {
+    background-color: darksalmon; 
+    height: 120px;
+}
+
+#meniu ul {
+    list-style-type: none;
+}
+
+#meniu li {
+    padding: 5px;
+    display: initial;
+}
+
+#meniu a {
+    text-decoration: none;
+}

@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 900px;
+    margin: 0 auto;
+}
+
+#banner {
+    background-image: url('../imagini/banner.jpg');
+    height: 120px;
+}
+
+#meniu li {
+    list-style-type:  none;
+    display: inline;
+    padding: 5px;
+    border: 2px solid lightpink;
+    margin: 10px;
+
+}
+
+#meniu {
+    padding-bottom: 15px;
+    border-bottom: 1px solid pink;
+    margin-bottom: 10px;
+    padding-top: 10px;
+}
+
+#meniu a{
+    text-decoration: none;
+}
+
+#continut {
+    width: 75%;
+    float: left;
+}
+
+#lista-linkuri {
+    width: 20%;
+    float: right;
+}
+
+#submit {
+    padding: 10px;
+    background-color: lightpink;
+}
+
+input {
+    padding-bottom: 5px;
+}

@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width:900px;
+    margin: 0 auto;
+}
+
+#banner {
+    height: 120px;
+    background-image: url('../imagini/banner.jpg');
+}
+
+#meniu {
+    float: left;
+    width: 20%;
+    margin-top: 10px;  
+}
+
+#continut {
+    float: left;
+    width: 75%;
+    margin: 10px;
+}
+
+#meniu ul {
+    list-style-type: none;
+}
+
+#meniu a {
+    text-decoration: none;
+}
+
+#meniu li {
+    border: 1px solid darkorchid;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+#img-home {
+    width: 300px;
+}
