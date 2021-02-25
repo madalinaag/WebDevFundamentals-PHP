@@ -25,3 +25,20 @@ function preiaCursuri()
     $cursuri = mysqli_fetch_all($result, MYSQLI_ASSOC);
     return $cursuri;
 }
+
+function adaugaInstructor($nume, $email, $spec)
+{
+    $link = conectareBD();
+    $query = "INSERT INTO instructor VALUES(null, '$nume', '$email', '$spec')";
+
+    return mysqli_query($link, $query);
+}
+
+function preiaInstructori()
+{
+    $link = conectareBD();
+    $query = "SELECT * FROM instructor";
+    $result = mysqli_query($link, $query);
+    $instructori = mysqli_fetch_all($result, MYSQLI_ASSOC);
+    return $instructori;
+}
