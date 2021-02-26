@@ -1,36 +1,4 @@
 <?php
-function numeZi($zi)
-{
-    switch ($zi) {
-        case 1:
-            print 'luni';
-            break;
-        case 2:
-            print 'marti';
-            break;
-        case 3:
-            print 'miercuri';
-            break;
-        case 4:
-            print 'joi';
-            break;
-        case 5:
-            print 'vineri';
-            break;
-        case 6:
-        case 7:
-            print 'weekend';
-            break;
-        default:
-            print 's-au terminat zilele saptamanii, poate inventam una noua';
-            break;
-    }
-}
-
-numeZi(7);
-print '<br>';
-print '<br>';
-
 for ($i = 1; $i <= 50; $i++) {
     if ($i % 15 == 0) {
         print 'fizz-buzz';
