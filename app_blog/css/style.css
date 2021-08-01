@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 900px;
+    margin: 0 auto;
+}
+
+#banner {
+    background-color: darksalmon; 
+    height: 120px;
+}
+
+#meniu ul {
+    list-style-type: none;
+}
+
+#meniu li {
+    padding: 5px;
+    display: initial;
+}
+
+#meniu a {
+    text-decoration: none;
+}
+
+.articol header {
+    font-weight: bold;
+    font-size: 24px;
+    padding-bottom: 10px;
+    margin-top: 10px;
+    color: orange;
+}
+
+.articol p {
+    text-align: justify;
+}
+
+.articol footer {
+    text-align: right;
+    color: orange;
+}
+
+.articol {
+        border-bottom: 1px solid lightgray;
+
+}
